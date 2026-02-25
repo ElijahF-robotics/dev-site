@@ -4,7 +4,7 @@
 	import RoundedButton from '$lib/RoundedButton.svelte';
 
 	import upArrow from '$lib/assets/upArrow.svg';
-	import downArrow from '$lib/assets/DownArrow.svg';
+	import downArrow from '$lib/assets/downArrow.svg';
 
 	import websiteImg from '$lib/assets/website.png';
 	import attoImg from '$lib/assets/atto.png';
