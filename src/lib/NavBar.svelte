@@ -1,12 +1,13 @@
 <script>
-	  import NavBarItem from '$lib/NavBarItem.svelte';
+	import NavBarItem from '$lib/NavBarItem.svelte';
 </script>
 
-<div role="navigation" class="w-screen flex items-center justify-center p-10 fixed top-0 z-50">
-	<div class={`bg-blue-200 opacity-50 backdrop-blur-2xl rounded-4xl flex transition-all duration-500 shadow-md translate-y-0`}>
-		<NavBarItem text="Home" link="/"/>
-		<NavBarItem text="About" link="/about"/>
-		<NavBarItem text="Projects" link="/projects"/>
+<div role="navigation" class="fixed top-0 z-50 flex w-screen items-center justify-center p-10">
+	<div
+		class={`flex translate-y-0 rounded-4xl bg-blue-200 opacity-50 shadow-md backdrop-blur-2xl transition-all duration-500`}
+	>
+		<NavBarItem text="Home" link="/" />
+		<NavBarItem text="About" link="/about" />
+		<NavBarItem text="Projects" link="/projects" />
 	</div>
 </div>
-
