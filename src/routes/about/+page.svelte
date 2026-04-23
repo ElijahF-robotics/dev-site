@@ -15,8 +15,7 @@
 
 		<!--		Text Box-->
 		<div class="flex h-full w-full flex-col items-center justify-start rounded-2xl bg-white p-4">
-			<h1 class="text-3xl">Hey, I'm Elijah</h1>
-			<hr />
+			<h1 class="text-3xl mb-0">Hey, I'm Elijah</h1>
 			<div class="flex w-full flex-col p-4">
 				<!--Bio-->
 				<h2 class="text-lg font-bold">- A Bit About Me -</h2>
@@ -38,7 +37,7 @@
 				</p>
 
 				<!--Things I'm interested in-->
-				<h2 class="text-lg font-bold">- Interests -</h2>
+				<h2 class="text-lg font-bold">- Stuff I Like to Do -</h2>
 				<div class="flex w-full flex-wrap">
 					<WordBox color="bg-blue-200">Python</WordBox>
 					<WordBox color="bg-yellow-200">JavaScript</WordBox>
@@ -53,8 +52,8 @@
 				</div>
 
 				<!--Contacts-->
-				<h2 class="text-lg font-bold">- Contact -</h2>
-				<p>elijahflader@gmail.com</p>
+				<h2 class="text-lg font-bold">- Talk With Me -</h2>
+				<p class="pb-2">elijahflader@gmail.com</p>
 
 			</div>
 
