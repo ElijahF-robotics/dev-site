@@ -17,6 +17,7 @@
 
 	<!--	Shapes-->
 	<div class="m-40 flex items-center justify-center">
+
 		<!-- Square -->
 		<svg bind:this={square.svgEl} class="pointer-events-none absolute inset-0 h-full w-full overflow-visible">
 			<line

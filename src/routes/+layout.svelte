@@ -29,6 +29,7 @@
 	{@render children()}
 </div>
 
+
 <svelte:window on:keydown|preventDefault={onKeyDown} on:scroll|preventDefault={onScroll} />
 
 <style>
