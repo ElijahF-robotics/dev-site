@@ -1,7 +1,7 @@
 <script>
-	let {children, color} = $props()
+	let { children, color } = $props();
 </script>
 
-<div class={`w-fit flex px-2 py-1 text-sm rounded-2xl mx-1 my-0.5 ${color}`}>
+<div class={`mx-1 my-0.5 flex w-fit rounded-2xl px-2 py-1 text-sm ${color}`}>
 	{@render children()}
 </div>

@@ -1,6 +1,6 @@
 <script>
 	import './layout.css';
-	import NavBar from '$lib/NavBar.svelte';
+	import NavBar from '#lib/NavBar.svelte';
 
 	let { children } = $props();
 
@@ -28,7 +28,6 @@
 <div class="flex h-fit w-screen flex-col items-center font-sans">
 	{@render children()}
 </div>
-
 
 <svelte:window on:keydown|preventDefault={onKeyDown} on:scroll|preventDefault={onScroll} />
 

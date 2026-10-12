@@ -1,5 +1,5 @@
 <script>
-	import LinkButton from '$lib/LinkButton.svelte';
+	import LinkButton from '#lib/LinkButton.svelte';
 	var { project, offset = 0, zIndex = 0 } = $props();
 </script>
 

@@ -1,15 +1,15 @@
 <script>
-	import Grid from '$lib/Grid.svelte';
-	import ProjectCard from '$lib/ProjectCard.svelte';
-	import RoundedButton from '$lib/RoundedButton.svelte';
+	import Grid from '#lib/Grid.svelte';
+	import ProjectCard from '#lib/ProjectCard.svelte';
+	import RoundedButton from '#lib/RoundedButton.svelte';
 
-	import upArrow from '$lib/assets/upArrow.svg';
-	import downArrow from '$lib/assets/downArrow.svg';
+	import upArrow from '#lib/assets/upArrow.svg';
+	import downArrow from '#lib/assets/downArrow.svg';
 
-	import websiteImg from '$lib/assets/website.png';
-	import attoImg from '$lib/assets/atto.png';
-	import homepageImg from '$lib/assets/homepage.png';
-	import colorgameImg from '$lib/assets/colorgame.png';
+	import websiteImg from '#lib/assets/website.png';
+	import attoImg from '#lib/assets/atto.png';
+	import homepageImg from '#lib/assets/homepage.png';
+	import colorgameImg from '#lib/assets/colorgame.png';
 
 	const projects = [
 		// { title: 'Current Project - Task-Timer', github: '/project1', link: "", image: websiteImg,
