@@ -17,17 +17,23 @@
 		"@sveltejs/kit": "^3.0.0",
 		"@sveltejs/vite-plugin-svelte": "^7.0.0",
 		"@tailwindcss/forms": "^0.5.11",
-		"@tailwindcss/typography": "^0.5.19",
-		"@tailwindcss/vite": "^4.1.18",
+		"@tailwindcss/typography": "^0.5.4",
+		"@tailwindcss/vite": "^4.3.3",
+		"@types/matter-js": "^0.20.2",
 		"prettier": "^3.8.1",
 		"prettier-plugin-svelte": "^3.4.1",
 		"prettier-plugin-tailwindcss": "^0.7.2",
 		"svelte": "^5.57.1",
-		"tailwindcss": "^4.1.18",
+		"tailwindcss": "^4.3.3",
 		"vite": "^8.0.12"
 	},
 	"imports": {
 		"#lib": "./src/lib/index.js",
 		"#lib/*": "./src/lib/*"
+	},
+	"dependencies": {
+		"matter-js": "^0.20.0",
+		"p5-svelte": "^3.1.2",
+		"roughjs": "^4.6.6"
 	}
 }
